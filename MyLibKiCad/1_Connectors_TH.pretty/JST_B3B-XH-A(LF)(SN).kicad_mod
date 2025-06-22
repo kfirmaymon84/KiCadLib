@@ -1,0 +1,169 @@
+(footprint "JST_B3B-XH-A(LF)(SN)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CONN HEADER VERT 3POS 2.5MM")
+	(property "Reference" "REF**"
+		(at -3.15 -3.875 0)
+		(layer "F.SilkS")
+		(uuid "aa36a241-238b-40b0-9ab0-adf8c7530bc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_B3B-XH-A_LF__SN_"
+		(at 1.35 4.525 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41ca77ee-9368-4323-beb0-7deee3a8d528")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7958baf-86f7-46f9-a01d-715fd2f3ed56")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4782dddd-8854-4d5d-8b9a-7960aa275bb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ad95149-110d-41c9-bbe8-c374a33c6f0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.1 -2.975)
+		(end 5.1 3.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "986492ce-cf85-4863-89fa-39a9532c3703")
+	)
+	(fp_circle
+		(center 5.5 0.525)
+		(end 5.6 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b4734f60-681e-466c-9853-bbca6cac2863")
+	)
+	(fp_rect
+		(start -5.1 -2.975)
+		(end 5.1 3.025)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "aad3cc61-a9c2-4f3c-8b18-cda83f1bf895")
+	)
+	(fp_rect
+		(start -5.1 -2.975)
+		(end 5.1 3.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ec4498e7-6c5a-43f8-a46f-6011414b3f36")
+	)
+	(fp_circle
+		(center 4 1.5)
+		(end 4.1 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a733ea15-f3e3-4d79-aba8-0e5c8331dd44")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32b72a01-4f00-4b77-ac2d-87a9550a6cfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.5 0.525)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acd01df1-7198-4039-a41a-fa14a0b4fd3c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0.525)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e480cd9a-9936-4eed-801c-c821e7f20142")
+	)
+	(pad "3" thru_hole circle
+		(at -2.5 0.525)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65f1e457-5e60-4d92-acd9-0cc22c8d86f5")
+	)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/B3B-XH-A-LF--SN---3DModel-STEP-418109.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

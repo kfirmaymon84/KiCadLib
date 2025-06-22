@@ -1,0 +1,137 @@
+(footprint "R75-1W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "R75-1W_Receptacle")
+	(property "Reference" "REF**"
+		(at 3.2 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6a448e88-7978-46e9-905d-85655cca9c6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "R75-1W"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e0d469e-8988-4431-acd8-704ffe072abf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9881782b-6f62-4cf4-86e2-45dca2e299b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13aeeeb4-9a6b-45d8-a096-1d69f56a425b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfce93e4-030e-4001-88ad-c18e1471c169")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e1ad1339-2d93-4376-a795-b11e942cf9d6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9e904591-8e70-4629-9ab5-942e362b1efc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5e510df2-548c-4edd-a493-c203b325a547")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d31be1ac-2d74-4b60-b20b-5de3de7c481b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "601dc246-6339-4fa1-85b6-338d23a9419a")
+	)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/R75-1W.step"
+		(offset
+			(xyz 0 0 17.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

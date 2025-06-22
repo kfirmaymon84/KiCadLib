@@ -1,0 +1,210 @@
+(footprint "PC2100011"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB-A Plug_PCB_Rev.V1")
+	(property "Reference" "REF**"
+		(at -4.1 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "600bce89-1d7b-4e34-902b-a84a14f61eab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PC2100011"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5fc8fe8e-12af-4333-90ac-167e07cfa452")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31b130a6-74f7-43f0-b6ff-ffa6ce889211")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e525094b-db14-488c-8861-4a24d62f00fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4057f9d-3598-45bd-a894-0625ed408e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.1 -2.1)
+		(end 6.1 12.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b2a54cb5-bc34-48d0-877d-87e2472205f9")
+	)
+	(fp_circle
+		(center -4.1 -2.4)
+		(end -4.3 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b2ecf621-466c-4f4d-88a7-2902c9581fbc")
+	)
+	(fp_rect
+		(start -6 -2)
+		(end 6 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "87b4e8f1-1c22-4b50-9854-933f3253ede7")
+	)
+	(fp_rect
+		(start -4.5 4.5)
+		(end -2.5 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "290c0dff-a88a-4725-aa6a-7ae16a9ec007")
+	)
+	(fp_rect
+		(start -1.75 5.2)
+		(end -0.25 10.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "44422d90-0fec-47f1-a8ee-6c7143b2b417")
+	)
+	(fp_rect
+		(start 0.25 5.2)
+		(end 1.75 10.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "24e34035-ebbd-4bbf-8b6a-84923d6ad210")
+	)
+	(fp_rect
+		(start 2.5 4.4)
+		(end 4.5 11.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "90739e18-d7af-4e11-8968-a3bd1b351106")
+	)
+	(fp_circle
+		(center -4 0)
+		(end -4.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "438d35af-e9db-411d-9ec5-7d570f93513e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f6fafd8-fe99-4177-9859-a249175a91e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4 0 90)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cb134ab9-688e-457e-bbb5-a8b77b13ff59")
+	)
+	(pad "2" smd rect
+		(at -1.25 0 90)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "05871a71-36b9-4b92-a0de-bf54067192ed")
+	)
+	(pad "3" smd rect
+		(at 1.25 0 90)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9c76a4ac-c85a-49c6-bef6-8546a13afc22")
+	)
+	(pad "4" smd rect
+		(at 4 0 90)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a9c5a9ff-eed1-4e23-a480-4bc13a23d145")
+	)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/PC2100011 USB-A Plug_PCB_Rev.V1.STEP"
+		(offset
+			(xyz 0 -5 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
+	)
+)

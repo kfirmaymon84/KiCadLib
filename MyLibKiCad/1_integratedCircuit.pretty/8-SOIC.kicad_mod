@@ -1,0 +1,214 @@
+(footprint "8-SOIC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9de13b5b-fe37-44aa-aabd-21ce5d7077fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "8-SOIC"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ce4f2d9-bf3c-45e4-9e64-006244df423c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3388bd2-6db1-4965-a012-61c9109e6c2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "679310cf-4f07-4fa1-8ee7-6c2a1c8d1b17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5c7f148-1563-4543-be96-c0243faff5b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -2.6)
+		(end 0 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "46cbcce9-981a-4686-9d8b-0dca9fa04125")
+	)
+	(fp_line
+		(start -1.25 2.5)
+		(end 1.25 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51ca5d69-11bc-43c5-bbdc-ac95f74d6c85")
+	)
+	(fp_circle
+		(center -3.7 -2.3)
+		(end -3.5 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1d1a4721-6a4d-42eb-a3e2-d9948b4dba7b")
+	)
+	(fp_rect
+		(start -3.3 -2.6)
+		(end 3.4 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8e2798b4-3b48-4017-8d8b-19d4a28f7287")
+	)
+	(fp_rect
+		(start -3.3 -2.6)
+		(end 3.4 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "08bddf9e-359f-4548-8a09-acbbb056ea53")
+	)
+	(fp_circle
+		(center -2.3 -1.9)
+		(end -2.1 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "4017ce17-5638-4304-89cc-fb4ddd4b474c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a03bccd-1fcf-4363-8975-94e8e80cfe2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.315 -1.89)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a92db866-d4ad-4524-bd8e-c7194891ab8b")
+	)
+	(pad "2" smd rect
+		(at -2.34 -0.635)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c0fba941-e6f9-468d-8fea-ad96b7a3ddf0")
+	)
+	(pad "3" smd rect
+		(at -2.34 0.635)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a7d618ae-d16c-490f-9b55-27154e69cb5e")
+	)
+	(pad "4" smd rect
+		(at -2.34 1.905)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "547956c1-4452-4efb-9ee9-d2c0ff52cd00")
+	)
+	(pad "5" smd rect
+		(at 2.34 1.905)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "168eb19c-cd49-447a-a565-a91322b5dbbe")
+	)
+	(pad "6" smd rect
+		(at 2.34 0.635)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "44c53ef2-7243-49ba-934a-5dcc9704876f")
+	)
+	(pad "7" smd rect
+		(at 2.34 -0.635)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e9c472d0-75b8-4a40-aa04-12e5708ecb2a")
+	)
+	(pad "8" smd rect
+		(at 2.34 -1.905)
+		(size 1.78 0.72)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "49dd6899-d674-462a-b98c-3dda1cb8f4ef")
+	)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/8_SOIC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

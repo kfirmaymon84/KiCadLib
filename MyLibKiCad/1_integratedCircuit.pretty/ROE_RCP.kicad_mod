@@ -1,0 +1,291 @@
+(footprint "ROE_RCP"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Isolated Module DC DC Converter 1 Output 12V 84mA 4.5V - 5.5V Input")
+	(tags "ROE-0512S ")
+	(property "Reference" "REF**"
+		(at 0.0031 -6.0472 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4110c5dd-63d4-47ff-96f4-1c2dcbf31cc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ROE_RCP"
+		(at 1.5031 2.4528 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab9368e2-53c4-462d-bd45-6ee45f802983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.0031 -3.5472 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3af3d5f9-187c-415e-8427-f1e26ef8529f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.0031 -3.5472 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "512c2891-531d-4669-827e-fdaf9319e37b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Isolated Module DC DC Converter 1 Output 12V 84mA 4.5V - 5.5V Input"
+		(at 3.0031 2.4528 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b1f8395-9d16-473e-8fa2-18d56160e8ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.027 -4.9214)
+		(end -2.027 1.327)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7616e22b-6014-41bd-9b2e-13cd3a6733d4")
+	)
+	(fp_line
+		(start -2.027 1.327)
+		(end 9.7332 1.327)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83becb47-20d5-4aca-9a0a-28f48ac1d7f4")
+	)
+	(fp_line
+		(start 9.7332 -4.9214)
+		(end -2.027 -4.9214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71e2524d-2385-449b-9ef6-7c6d1ea48767")
+	)
+	(fp_line
+		(start 9.7332 1.327)
+		(end 9.7332 -4.9214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d92e664-21f6-4f43-ada4-3fc8b854b700")
+	)
+	(fp_line
+		(start -2.154 -5.0484)
+		(end 9.8602 -5.0484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04d305f7-6302-449e-b292-8e1cdf8a3119")
+	)
+	(fp_line
+		(start -2.154 1.454)
+		(end -2.154 -5.0484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82a74e18-3f45-4008-ab9e-5e0c2a41b22d")
+	)
+	(fp_line
+		(start 9.8602 -5.0484)
+		(end 9.8602 1.454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8340feb-5eed-4489-85dd-615c8c63fa51")
+	)
+	(fp_line
+		(start 9.8602 1.454)
+		(end -2.154 1.454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09bd3891-8cf0-41e7-aa3a-0fba7e55f9c7")
+	)
+	(fp_line
+		(start -1.9 -4.7944)
+		(end -1.9 1.2)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d45c3035-6175-40bc-b593-ce1f43527d0d")
+	)
+	(fp_line
+		(start -1.9 -1.0472)
+		(end 9.6062 -1.0472)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dde317b-b323-4275-bb01-dffd8699a390")
+	)
+	(fp_line
+		(start 9.6062 -4.7944)
+		(end -1.9 -4.7944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4397c0d6-ae80-4d40-bf90-642d1db4cb2b")
+	)
+	(fp_line
+		(start 9.6062 1.2)
+		(end 9.6062 -4.7944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "407133be-1e18-4c3d-a0c1-1e0a9d10162f")
+	)
+	(fp_text user "*"
+		(at -2.916 -3.5472 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "567072fb-9a52-44b1-b629-c1622817104c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -2.916 -3.5472 0)
+		(layer "F.SilkS")
+		(uuid "87ba5e07-1df3-4489-bfb2-603d5cada518")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -1.646 -3.5472 0)
+		(layer "F.Fab")
+		(uuid "2aa9e92b-9338-45ab-9643-76adf34d453e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "*"
+		(at -1.646 -3.5472 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8870b96c-b3fe-49f8-8e23-2592a9257ad3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 -2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94c3759c-cf34-4efd-8c46-e61fbe01bffb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb980f63-64ad-4593-9fd5-ad2a75b96c4f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "093cd84c-266d-4628-8e4d-da8f816f6d9e")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b8e1360-5512-4f03-a646-ac8a9ce8c9ab")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.3716 1.3716)
+		(drill 0.8636)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fa3a5ed-48af-4a07-a429-fca00bc7f93a")
+	)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/ROE-0512S.stp"
+		(offset
+			(xyz 3.8 1.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

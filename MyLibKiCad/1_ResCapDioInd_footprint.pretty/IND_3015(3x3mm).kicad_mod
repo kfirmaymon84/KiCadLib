@@ -1,0 +1,138 @@
+(footprint "IND_3015(3x3mm)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bef3098b-f044-48b0-a1d8-1d4a5d7275a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IND_3015(3x3mm)"
+		(at -0.1 -6.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc5d5176-0b64-436c-b246-c653f6ea8094")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b92c828b-f658-4e83-b5e9-afbd8539c2cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ec84af0-2668-4af3-b285-95df44c50cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.3 -1.6)
+		(end -1.3 -1.6)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8dbc518-0785-4bc0-86af-c8bcc7a385aa")
+	)
+	(fp_line
+		(start 1.3 1.6)
+		(end -1.3 1.6)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "868b4f24-9d36-47fc-90ff-cb07acd4b4ad")
+	)
+	(fp_rect
+		(start -1.7 -1.6)
+		(end 1.7 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cabe735f-1493-4d96-8f1a-b5904854d7b8")
+	)
+	(fp_rect
+		(start -1.7 -1.6)
+		(end 1.7 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ae7e9d77-00e6-413e-8b3e-9595ee91e285")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e15d9633-deca-448a-9ae5-6e2a64c025cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "50d66ddf-f4b5-49e1-8e7b-f7112e018a2a")
+	)
+	(pad "2" smd rect
+		(at 1.2 0)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e86d226e-1ce6-4eef-ba55-a5017c38f988")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/IND_3015(3x3mm).stp"
+		(offset
+			(xyz 0 0 0.77)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

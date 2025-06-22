@@ -1,0 +1,225 @@
+(footprint "6-DSBGA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "097dd009-f04e-4b82-ab12-42f48a464069")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "6-DSBGA"
+		(at 0 3.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa1c3b80-52d4-48f7-b130-66cbb675fe41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef4c36ea-6ac9-4571-8432-c824445190d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "410021fd-d78b-41dd-aeaf-2cb571d4a56a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 0.7)
+		(end -0.5 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bbb8e6d0-22ca-464f-85e3-791a14e7f4f1")
+	)
+	(fp_line
+		(start -0.2 0.7)
+		(end -0.5 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "65ad0823-57a4-4831-9c70-42319506ca80")
+	)
+	(fp_line
+		(start 0.2 -0.7)
+		(end 0.5 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08af30d7-cbdc-4bc6-a754-f8a1e17fd712")
+	)
+	(fp_line
+		(start 0.5 -0.7)
+		(end 0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d58bbe0c-c400-49d8-ac6c-927ac4b5b553")
+	)
+	(fp_line
+		(start 0.5 0.4)
+		(end 0.5 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03c8a173-c7c8-44d3-8ae4-845bcf8582a3")
+	)
+	(fp_line
+		(start 0.5 0.7)
+		(end 0.2 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a6c3492-54d6-453e-b163-dbb5f4d9c8cc")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.7) (xy -0.5 -0.9) (xy -0.7 -0.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f52113eb-9a48-4f87-aa21-a9ccba226204")
+	)
+	(fp_rect
+		(start -0.5 -0.7)
+		(end 0.5 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6a170f9c-88e6-4a4f-a410-3349a1b9a3c3")
+	)
+	(fp_rect
+		(start -0.5 -0.7)
+		(end 0.5 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bf23642c-d856-49f8-89b0-e7a2dfeb691e")
+	)
+	(fp_circle
+		(center -0.4 -0.6)
+		(end -0.5425 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ea0df349-8486-4410-b26e-35a0628d4ea6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94a4a6a7-6a6e-41da-b9a7-bd55cf9f2f48")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a80783c-ec39-4c21-98d9-199a2d32e08a")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71961f55-4963-4f00-ab95-c006c75bf407")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "754c5c38-185e-4c03-9323-bb16795f992b")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9506a6ae-3f3f-4b01-9123-3df1289f5c0f")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "36b69dd0-2615-45a9-a6ae-e446e3cbcd68")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.4)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44d4184b-c444-42a1-9a32-6813b51c3e66")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/6-DSBGA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

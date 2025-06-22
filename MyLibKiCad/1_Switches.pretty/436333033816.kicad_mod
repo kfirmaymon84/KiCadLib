@@ -1,0 +1,225 @@
+(footprint "436333033816"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f1193cf8-0814-44d6-a0a5-194e7dcf3b43")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "436333033816"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "991a54a2-580a-43e5-81e5-213fb0af5323")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74ec42a6-73a9-41d5-8a6d-158750d2f0af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "  SWITCH TACTILE SPST-NO 0.05A 12V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5bc2e23-2ad5-4f49-b270-0a716cdf92dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1.5)
+		(end -2.3 -0.6)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e1953748-e44a-4f4a-b73c-9d8977bb9e49")
+	)
+	(fp_line
+		(start -1.9 -1.5)
+		(end -2.3 -1.5)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5c88dd6-44f2-445e-83b8-04fcc44be7c3")
+	)
+	(fp_line
+		(start -1 1.3)
+		(end 1 1.3)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5246cb2-9580-4756-89ae-bb1df4be2f32")
+	)
+	(fp_line
+		(start 2.4 -1.5)
+		(end 2 -1.5)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36caa08b-5d6a-41de-8c89-a494eb8c8674")
+	)
+	(fp_line
+		(start 2.4 -1.5)
+		(end 2.4 -0.6)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "39a8342a-078a-4a9e-97d5-616b91cb0fea")
+	)
+	(fp_rect
+		(start -2.7 -1.8)
+		(end 2.7 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "652cde3e-1ff9-45e7-9876-4826b1d48c56")
+	)
+	(fp_rect
+		(start -2.3 -1.5)
+		(end 2.4 1.3)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4d450639-fe09-4139-b944-b5d8209e263d")
+	)
+	(fp_rect
+		(start -1.1 1.3)
+		(end 1.1 2.3)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0fac87fa-a376-4159-8457-b237b07f4d8c")
+	)
+	(fp_circle
+		(center -1.9 -1.2)
+		(end -1.8 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b213b352-67fe-4aad-bb6f-bc6a5bfd5bdf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "830d22c4-e3cf-4b33-87aa-265d9192d638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.125 0 180)
+		(size 0.8 0.8)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5025bb49-ac9e-4943-9e52-9b3d014e2554")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.125 0 180)
+		(size 0.8 0.8)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "99d12e6f-c660-477a-81df-8712d2f171c3")
+	)
+	(pad "1" smd rect
+		(at -1.17 -0.9 180)
+		(size 0.7 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5df3a691-cc22-434c-98fb-c33cea770b69")
+	)
+	(pad "2" smd rect
+		(at 0 -0.9 180)
+		(size 0.6 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b6542c25-aec0-44f5-9124-5628f5a0d1d3")
+	)
+	(pad "3" smd rect
+		(at 1.17 -0.9 180)
+		(size 0.7 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e1ca9061-be17-4a50-a64a-3ca0f4515f78")
+	)
+	(pad "FP1" smd rect
+		(at -1.81 1.05 180)
+		(size 1.38 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "de74dda0-fafc-4aa8-83cf-48e9e8a52342")
+	)
+	(pad "FP2" smd rect
+		(at 1.81 1.05 180)
+		(size 1.38 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "aca77f6e-3dab-4c83-a579-1b0a0072e6d4")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/STP_436333033816_rev1.stp"
+		(offset
+			(xyz 0 -1 1.66)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 90 -0)
+		)
+	)
+)

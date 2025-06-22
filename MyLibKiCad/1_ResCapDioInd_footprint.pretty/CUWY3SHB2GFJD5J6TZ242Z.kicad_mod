@@ -1,0 +1,239 @@
+(footprint "CUWY3SHB2GFJD5J6TZ242Z"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CUW Y3SH.B2")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "be46cbf0-32d2-4ffb-b818-e0bb95ece0c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CUWY3SHB2GFJD5J6TZ242Z"
+		(at 0 1.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d51c6d81-6856-4c6b-9963-a72fdcb52ca2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a48b78b1-b19c-45c2-8a21-dd3dcf88b901")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "418cabbb-c631-4d29-a3d8-07a956d82d10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13dd8881-4595-43a1-a294-d3ff2b69f20c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -0.55)
+		(end 1.85 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5336f68a-3055-415e-a0d8-364db8ef1809")
+	)
+	(fp_line
+		(start -1.85 -0.15)
+		(end -1.85 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbfd312d-d04a-4a51-aca1-a68122d22a9f")
+	)
+	(fp_line
+		(start -0.9 0.45)
+		(end 0.8 0.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ac1b38c-8f6f-41a2-ae61-f30cb242e7fd")
+	)
+	(fp_line
+		(start 0.8 0.45)
+		(end 0.9 0.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "628c6ee9-fa3e-48ae-bd65-5d3bc46d9155")
+	)
+	(fp_line
+		(start 1.85 -0.55)
+		(end 1.85 -0.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a03e1789-a786-49d4-97e0-7226a8b5f68d")
+	)
+	(fp_line
+		(start 2.6 0.3)
+		(end 2.6 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db4c2a02-33cf-4ca4-af8e-62087bc18aa0")
+	)
+	(fp_line
+		(start 2.6 0.5)
+		(end 2.6 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b36d1be5-2c4f-4e80-b820-a257878d9d54")
+	)
+	(fp_arc
+		(start 2.6 0.3)
+		(mid 2.7 0.4)
+		(end 2.6 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0efc45f9-23e0-409e-84c3-73c2db92c7cb")
+	)
+	(fp_arc
+		(start 2.6 0.5)
+		(mid 2.5 0.4)
+		(end 2.6 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30192bb5-99ef-403f-be3b-574ccb78721b")
+	)
+	(fp_rect
+		(start -2.2 -0.6)
+		(end 2.2 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "db8f4261-2a4d-4f14-9e9d-17b8750e6f38")
+	)
+	(fp_rect
+		(start -2.2 -0.6)
+		(end 2.2 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f64e62f3-28bf-43da-850b-3418e76e544e")
+	)
+	(fp_circle
+		(center 2.6 0.4)
+		(end 2.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "06eb5b17-57f9-4ad5-ad0c-21843ee03558")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "14ea4292-87f8-437a-89c1-c7415041e377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at -1.65 0.35 90)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "179cf39b-7952-4efb-9ddc-a922f66bc7fe")
+	)
+	(pad "A" smd rect
+		(at -1.35 0 90)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc4b51b1-a10d-4615-8065-a3bb847e2a14")
+	)
+	(pad "C" smd rect
+		(at 1.35 0 90)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "324b8563-f067-4b32-a964-e5b620595668")
+	)
+	(pad "C" smd rect
+		(at 1.65 0.35 90)
+		(size 0.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ddaca830-4cc1-4d49-8530-28f95c7730cf")
+	)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/CUW_Y3SH.B2-GFJD-5J6T-Z242-Z.stp"
+		(offset
+			(xyz 0 0.4600000014 0.3000000074)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 -90)
+		)
+	)
+)
