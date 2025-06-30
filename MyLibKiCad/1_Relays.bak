@@ -670,8 +670,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "1_Relays:PE014005"
+			(at 0.254 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)

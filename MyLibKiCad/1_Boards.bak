@@ -211,7 +211,7 @@
 			)
 		)
 		(property "Footprint" "1_Boards:ESP32_DevKitC_V4"
-			(at 0 0 0)
+			(at 12.954 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +923,7 @@
 				)
 			)
 		)
-		(symbol "ESP32_DevKitC_V4_0_1"
+		(symbol "ESP32_DevKitC_V4_1_1"
 			(rectangle
 				(start 2.54 1.27)
 				(end 25.4 -48.26)
@@ -932,7 +932,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
@@ -943,11 +943,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "ESP32_DevKitC_V4_1_1"
 			(text "ESP32"
 				(at 13.97 2.54 0)
 				(effects

@@ -2040,7 +2040,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "AT42QT1010-TSHR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -3709,7 +3709,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "ATTINY416-MFR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -4163,7 +4163,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -8110,7 +8110,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -12553,7 +12553,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED2001PHR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -13269,7 +13269,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "MAX4821EUP+T"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -13722,7 +13722,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "MAX4823ETP+T"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -14440,7 +14440,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "MCP9700A-E/TO"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -15461,7 +15461,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -16077,7 +16077,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "OPA548T"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -16806,7 +16806,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "ROE-0512S"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -17187,7 +17187,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "SN74LVC1G3157DRYR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -19198,7 +19198,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "TC74AC14FTEL"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -19851,7 +19851,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "TLV70025DCKR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -20012,7 +20012,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "TLV74330PDBVR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -20173,7 +20173,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "TLV75530PDBVR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -20679,7 +20679,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "TPS25730DREFR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -21807,7 +21807,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -24840,7 +24840,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "VCNL36828P"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"

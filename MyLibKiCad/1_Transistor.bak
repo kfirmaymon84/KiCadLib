@@ -2861,7 +2861,7 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
@@ -6742,7 +6742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_Transistor_footprint:SC-101,SOT-883,CST3C"
 			(at 0 0 0)
 			(effects
 				(font

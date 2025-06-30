@@ -23,8 +23,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "1_Connectors_TH:0530470310"
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)

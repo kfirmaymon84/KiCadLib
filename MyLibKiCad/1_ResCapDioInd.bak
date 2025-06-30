@@ -1628,7 +1628,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_ResCapDioInd_footprint:IND_4.3x4.3x3.2mm"
 			(at 0 -5.08 0)
 			(effects
 				(font
