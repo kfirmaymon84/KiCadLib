@@ -1306,7 +1306,7 @@
 		(pin_names
 			(offset 0)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "FB"
@@ -1757,7 +1757,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -4454,7 +4454,7 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -4668,7 +4668,7 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LD"
@@ -5037,7 +5037,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
@@ -6314,7 +6314,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -7695,7 +7695,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
@@ -8634,7 +8634,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "NT08104F3435B1F"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
@@ -8960,7 +8960,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
@@ -9779,7 +9779,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "TVS2201DRBR"
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TV"
