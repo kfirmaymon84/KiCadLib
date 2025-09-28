@@ -1,0 +1,138 @@
+(footprint "IND_SRN8040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.8 -4.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "94f12b8e-6214-461d-a141-5048e1e1201e")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IND_SRN8040"
+		(at -0.7 -6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7641438-1dab-4c9d-98aa-0be163f2c81b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0afcb8b9-2ca5-4ad6-86b9-a2c8bbc43b3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SRN8040_INDUCTOR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ea98413-c022-4933-8d2c-e776c07b73c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -4)
+		(end 1 -4)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94483ab9-6e08-4d79-bb2e-2d1940634632")
+	)
+	(fp_line
+		(start -1 4)
+		(end 1 4)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "25022fc8-4bc7-4121-b1f1-0d6176e97f4f")
+	)
+	(fp_rect
+		(start -4.2 -4.2)
+		(end 4.2 4.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e617c409-7899-4636-a7b8-5c2f92e48656")
+	)
+	(fp_rect
+		(start -4.2 -4.2)
+		(end 4.2 4.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "44fceb0c-df39-4872-8e37-2301de9c4669")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77b30be6-1a7e-4075-a266-85f41c505e1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.8 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a91c9f16-8f11-4258-bbb5-63d938f6150a")
+	)
+	(pad "2" smd rect
+		(at 2.8 0)
+		(size 2.6 8.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "58b19a77-3f96-4692-b123-d5ed29f2bc92")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/srn8040.stp"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,179 @@
+(footprint "XTAL_(2x1.6mm)_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.6 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "c776dcfa-9bab-4dbc-a013-eb263a462b1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XTAL_(2x1.6mm)_SMD"
+		(at 9.6228 2.2714 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a806541-0f58-4344-a92b-d209157547da")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4676ca84-a100-44cb-a496-14de51f77766")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "XTAL_(2x1.6mm)_SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f78d580-82f8-404a-ad7f-8b5d4d6a7b22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.1 1.6)
+		(end -1 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3fd193a4-96fd-4e8c-9636-2fd4f8b79fe9")
+	)
+	(fp_line
+		(start -1.35 -1.15)
+		(end -1.35 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e3f61c0-7866-4768-bf34-478a8178dde8")
+	)
+	(fp_line
+		(start -1.35 1.15)
+		(end 1.35 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48e77b1d-bdd9-4c52-aee3-e8741f92d28a")
+	)
+	(fp_line
+		(start 1.35 -1.15)
+		(end -1.35 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3e0a531-852e-4a62-88c8-75888ae354dd")
+	)
+	(fp_line
+		(start 1.35 1.15)
+		(end 1.35 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a31d5c4-4f87-4c2d-b117-861dde0304b4")
+	)
+	(fp_rect
+		(start -1.4 -1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "06207cfb-b477-4e0f-8cb9-d80f57cbff40")
+	)
+	(fp_circle
+		(center -1.1 1.6)
+		(end -1 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "98004c2c-e24a-4f14-a862-b177ec287381")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "73db7b9b-3322-4a51-bfd0-c51bb75886eb")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8cac1513-781e-46ba-bf04-68d9d741f4c9")
+	)
+	(pad "2" smd rect
+		(at 0.675 0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9c8eb140-4d9c-4536-bdea-b3c1835b295e")
+	)
+	(pad "3" smd rect
+		(at 0.675 -0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "840e2a3a-17df-4b32-a199-9ee82ce3c8b3")
+	)
+	(pad "4" smd rect
+		(at -0.675 -0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "adb8e143-f902-44dc-bac5-f7bdb6204a48")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/XTAL_(2x1.6mm)_SMD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
