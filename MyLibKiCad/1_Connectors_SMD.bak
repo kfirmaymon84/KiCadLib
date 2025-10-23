@@ -2175,6 +2175,203 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "2328702-6"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 3.81 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2328702-6"
+			(at -6.35 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN FPC 6POS 0.5MM R/A"
+			(at -6.35 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "2328702-6"
+			(at -6.35 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "2328702-6_1_1"
+			(rectangle
+				(start 2.54 2.54)
+				(end 8.89 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -17.78 90)
+				(length 2.54)
+				(name "FP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "3-1705300-0"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8926,7 +9123,7 @@
 					(type background)
 				)
 			)
-			(pin bidirectional clock
+			(pin passive clock
 				(at -17.78 7.62 0)
 				(length 5.08)
 				(name "CLK"
@@ -8944,7 +9141,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -17.78 5.08 0)
 				(length 5.08)
 				(name "DAT0"
@@ -8962,7 +9159,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -17.78 2.54 0)
 				(length 5.08)
 				(name "DAT1"
@@ -8980,7 +9177,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -17.78 0 0)
 				(length 5.08)
 				(name "DAT2"
@@ -8998,7 +9195,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -17.78 -2.54 0)
 				(length 5.08)
 				(name "CD/DAT3"
@@ -9016,7 +9213,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -17.78 -5.08 0)
 				(length 5.08)
 				(name "CMD"
@@ -9034,7 +9231,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 12.7 180)
 				(length 5.08)
 				(name "VDD"
@@ -9052,7 +9249,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 17.78 2.54 180)
 				(length 5.08)
 				(name "SW-A"
@@ -9070,7 +9267,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 17.78 0 180)
 				(length 5.08)
 				(name "SW-B"
@@ -9160,7 +9357,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 -20.32 180)
 				(length 5.08)
 				(name "VSS"

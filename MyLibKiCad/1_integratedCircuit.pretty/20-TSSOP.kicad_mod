@@ -1,9 +1,9 @@
-(footprint "20-TSSOP-EP"
+(footprint "20-TSSOP"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "20-TSSOP (0.173\", 4.40mm Width) Exposed Pad")
+	(descr "20-TSSOP (0.173\", 4.40mm Width)")
 	(property "Reference" "REF**"
 		(at -2 -4.2 0)
 		(layer "F.SilkS")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "20-TSSOP-EP"
+	(property "Value" "20-TSSOP"
 		(at 0 4.4 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -82,18 +82,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "36b96b4c-7a7b-4a67-80ce-b3fb4b7a40c6")
-	)
-	(fp_poly
-		(pts
-			(xy -0.90125 -1.26491) (xy 0.90125 -1.26491) (xy 0.90125 1.26491) (xy -0.90125 1.26491)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "10d1219a-e04e-428b-a778-934f2d86cb65")
 	)
 	(fp_line
 		(start -3.865 -3.5)
@@ -288,12 +276,6 @@
 		(size 1.48 0.41)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d195030-ea70-4e60-878b-e777a8ab1216")
-	)
-	(pad "21" smd rect
-		(at 0 0)
-		(size 2.85 4)
-		(layers "F.Cu" "F.Mask")
-		(uuid "adc4c6cb-c2bf-480b-bb45-8cb5868b1fdd")
 	)
 	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/20-TSSOP.step"

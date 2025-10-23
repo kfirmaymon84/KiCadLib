@@ -5255,7 +5255,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_ResCapDioInd_footprint:IND1007(2518 Metric)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -9973,6 +9973,193 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMF12A"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at -3.175 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMF12A"
+			(at 0 9.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "1_ResCapDioInd_footprint:SOD123"
+			(at 0 9.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "19.9V Clamp 10.1A Ipp Tvs Diode Surface Mount SOD-123F"
+			(at 0 9.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "SMF12A"
+			(at 6.35 -4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SMF12A_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -5.08) (xy -1.7439 -4.6027)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -5.08) (xy 1.27 -5.08) (xy 1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy -1.27 -6.35) (xy 1.27 -6.35) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 0 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -5.08) (xy 1.7439 -5.5573)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMF12A_1_1"
+			(rectangle
+				(start -2.54 -2.54)
+				(end 2.54 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
