@@ -20,6 +20,12 @@ class ScriptRunner:
         self.preset_file = tk.StringVar()
         self.kicad_path = tk.StringVar()
         
+        # Track running processes
+        self.running_processes = []
+        
+        # Set up cleanup on window close
+        self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+        
         # Load saved settings
         self.load_settings()
         
@@ -359,7 +365,7 @@ class ScriptRunner:
                 kicad_cmd_bat = os.path.join(kicad_bin_path, "kicad-cmd.bat")
                 if os.path.exists(kicad_cmd_bat):
                     # Run command through KiCad Command Prompt
-                    cmd_command = f'"{kicad_cmd_bat}" && {command}'
+                    cmd_command = f'"{kicad_cmd_bat}" && {command} && exit'
                     self.output_text.insert(tk.END, f"Running through KiCad Command Prompt...\n")
                     self.output_text.update()
                 else:
@@ -377,6 +383,9 @@ class ScriptRunner:
                 universal_newlines=True
             )
             
+            # Track this process for cleanup
+            self.running_processes.append(process)
+            
             # Read output line by line
             for line in iter(process.stdout.readline, ''):
                 self.output_text.insert(tk.END, line)
@@ -385,6 +394,10 @@ class ScriptRunner:
             
             # Wait for process to complete
             process.wait()
+            
+            # Remove completed process from tracking list
+            if process in self.running_processes:
+                self.running_processes.remove(process)
             
             if process.returncode == 0:
                 self.output_text.insert(tk.END, "\n✓ Command completed successfully!")
@@ -405,6 +418,9 @@ class ScriptRunner:
                 
         except Exception as e:
             self.output_text.insert(tk.END, f"\nError running command: {str(e)}")
+            # Clean up any tracked process on exception
+            if 'process' in locals() and process in self.running_processes:
+                self.running_processes.remove(process)
             
         finally:
             # Re-enable run button
@@ -748,7 +764,7 @@ class ScriptRunner:
             
             if os.path.exists(kicad_cmd_bat):
                 # Use KiCad Command Prompt to install kikit
-                install_command = f'"{kicad_cmd_bat}" && pip install kikit'
+                install_command = f'"{kicad_cmd_bat}" && pip install kikit && exit'
                 process = subprocess.Popen(
                     install_command,
                     shell=True,
@@ -756,6 +772,8 @@ class ScriptRunner:
                     stderr=subprocess.STDOUT,
                     text=True
                 )
+                # Track this process for cleanup
+                self.running_processes.append(process)
             else:
                 # Fallback to direct python approach
                 python_exe = os.path.join(kicad_bin_path, "python.exe")
@@ -770,6 +788,8 @@ class ScriptRunner:
                     text=True,
                     env=env
                 )
+                # Track this process for cleanup
+                self.running_processes.append(process)
             
             # Read output line by line
             for line in iter(process.stdout.readline, ''):
@@ -778,6 +798,10 @@ class ScriptRunner:
                 self.output_text.update()
             
             process.wait()
+            
+            # Remove completed process from tracking list
+            if process in self.running_processes:
+                self.running_processes.remove(process)
             
             if process.returncode == 0:
                 self.output_text.insert(tk.END, "\n✓ KiKit installed successfully!\n")
@@ -791,6 +815,9 @@ class ScriptRunner:
                 
         except Exception as e:
             self.output_text.insert(tk.END, f"\nError installing KiKit: {str(e)}\n")
+            # Clean up any tracked process on exception
+            if 'process' in locals() and process in self.running_processes:
+                self.running_processes.remove(process)
             messagebox.showerror("Error", f"Error installing KiKit: {str(e)}")
             return False
         finally:
@@ -836,6 +863,54 @@ class ScriptRunner:
                 json.dump(config, f, indent=2)
         except Exception as e:
             print(f"Error saving settings: {e}")
+
+    def on_closing(self):
+        """Handle window closing event - clean up running processes"""
+        try:
+            # Terminate any running processes and their process trees
+            for process in self.running_processes:
+                if process and process.poll() is None:  # Process is still running
+                    try:
+                        # On Windows, when using batch files and shell=True, we need to kill 
+                        # the entire process tree to close terminal windows
+                        if os.name == 'nt':  # Windows
+                            # Use taskkill to kill the process tree including cmd.exe windows
+                            subprocess.run(['taskkill', '/f', '/t', '/pid', str(process.pid)], 
+                                         capture_output=True, check=False)
+                        else:
+                            # Try graceful termination first on non-Windows
+                            process.terminate()
+                            # Wait a short time for graceful termination
+                            try:
+                                process.wait(timeout=2)
+                            except subprocess.TimeoutExpired:
+                                # Force kill if graceful termination doesn't work
+                                process.kill()
+                                process.wait()
+                    except Exception as e:
+                        print(f"Error terminating process: {e}")
+            
+            # Additional cleanup: kill any remaining cmd.exe processes that might be showing
+            # "Press any key to continue" prompts - but only those started by this application
+            if os.name == 'nt':
+                try:
+                    # Only kill cmd.exe processes that are children of our tracked processes
+                    # This is safer than killing all cmd.exe processes
+                    for process in self.running_processes:
+                        if process and process.poll() is None:
+                            subprocess.run(['taskkill', '/f', '/t', '/pid', str(process.pid)], 
+                                         capture_output=True, check=False)
+                except Exception:
+                    pass  # Ignore errors
+            
+            # Clear the process list
+            self.running_processes.clear()
+            
+        except Exception as e:
+            print(f"Error during cleanup: {e}")
+        finally:
+            # Destroy the window
+            self.root.destroy()
 
 def main():
     root = tk.Tk()
