@@ -1155,15 +1155,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Pad_1x1.5_mm_1_1"
 			(rectangle
 				(start 2.54 -1.27)
@@ -2336,7 +2327,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TestPoint"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2364,15 +2355,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 0 0 0)
 			(effects
 				(font

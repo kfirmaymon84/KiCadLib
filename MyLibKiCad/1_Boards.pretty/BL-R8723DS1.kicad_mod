@@ -11,7 +11,7 @@
 		(uuid "a11c35b3-6022-4ddd-8696-5a85b2e0b86a")
 		(effects
 			(font
-				(size 0.6 0.6)
+				(size 1 1)
 				(thickness 0.1)
 			)
 		)
@@ -170,8 +170,8 @@
 		(uuid "8c4ea507-09cc-4afb-9b85-a22f8fc0acd0")
 	)
 	(fp_circle
-		(center -6.7 -5.2)
-		(end -6.8 -5.2)
+		(center -6 -4.5)
+		(end -6.1 -4.5)
 		(stroke
 			(width 0.1)
 			(type default)

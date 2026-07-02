@@ -1,7 +1,7 @@
 (footprint "JST_B3B-XH-A(LF)(SN)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CONN HEADER VERT 3POS 2.5MM")
 	(property "Reference" "REF**"
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b7958baf-86f7-46f9-a01d-715fd2f3ed56")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "986492ce-cf85-4863-89fa-39a9532c3703")
 	)
@@ -82,7 +72,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b4734f60-681e-466c-9853-bbca6cac2863")
 	)
@@ -93,7 +83,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "aad3cc61-a9c2-4f3c-8b18-cda83f1bf895")
 	)
@@ -104,18 +94,18 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ec4498e7-6c5a-43f8-a46f-6011414b3f36")
 	)
 	(fp_circle
-		(center 4 1.5)
-		(end 4.1 1.5)
+		(center 2.5 0.55)
+		(end 2.6 0.55)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a733ea15-f3e3-4d79-aba8-0e5c8331dd44")
 	)
@@ -155,6 +145,7 @@
 		(remove_unused_layers no)
 		(uuid "65f1e457-5e60-4d92-acd9-0cc22c8d86f5")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/B3B-XH-A-LF--SN---3DModel-STEP-418109.STEP"
 		(offset
 			(xyz 0 0 0)

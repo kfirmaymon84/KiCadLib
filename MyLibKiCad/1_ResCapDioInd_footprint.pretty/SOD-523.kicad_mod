@@ -1,7 +1,7 @@
 (footprint "SOD-523"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1 0)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6eeeb4aa-22cc-4e6c-9044-7787631eeb38")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -82,7 +70,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9d6c1e90-64b3-4d50-945e-a56a191ac4e5")
 	)
@@ -103,7 +91,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e0189f95-0f1a-460a-a1c9-fb89f618c8c8")
 	)
@@ -114,15 +102,15 @@
 		(uuid "8c9c5a82-3eea-4a9a-a892-307d9738cf90")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.05)
 			)
 		)
 	)
 	(pad "A" smd roundrect
 		(at 0.74 0)
 		(size 0.67 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "d9a6f16d-2c0d-4572-a6a6-74eaa72d51f3")
@@ -130,11 +118,12 @@
 	(pad "C" smd roundrect
 		(at -0.74 0)
 		(size 0.67 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "249e9da0-e718-43de-ab7b-9a44bbba90cb")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/SOD-523F.step"
 		(offset
 			(xyz 0 0 0)

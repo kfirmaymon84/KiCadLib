@@ -1,7 +1,7 @@
 (footprint "LED_1212(3030Metric)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.1 -2.4 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "b7bddad5-8702-4d37-b0cf-23460492468c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -6.3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cfcaa693-4691-4e84-ab6a-093c8fdb0c71")
 		(effects
 			(font
 				(size 1 1)
@@ -105,7 +92,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c831cfc0-a1d7-4745-85a2-b7b5fc95f3b0")
 	)
@@ -116,7 +103,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "0b66f7ed-1ce0-412a-ab6e-b9824fcd15fc")
 	)
@@ -137,18 +124,18 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5d116224-8f98-427f-912a-cc2529488dab")
 	)
 	(fp_circle
-		(center 2.1 0)
-		(end 2.2 0)
+		(center 1.35 0)
+		(end 1.45 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "efc47363-8fd6-429f-b538-53570a7d7f33")
 	)
@@ -159,32 +146,33 @@
 		(uuid "29f2066c-1c0d-40fe-a9fa-c163fdaed5ef")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.05)
 			)
 		)
 	)
 	(pad "A" smd rect
 		(at -1.125 0 90)
 		(size 2.8 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "162306b4-ba27-4c65-8a46-2e97d0fd79fd")
 	)
 	(pad "C" smd rect
 		(at 1.125 0 90)
 		(size 2.8 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "0f27a74f-9010-4948-9750-b2b9df6083f5")
 	)
 	(pad "EP" smd rect
 		(at 0 0 90)
 		(size 2.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "5ab3c83b-34e2-491e-bade-7361f1153c36")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/GW_CSSRM3_PM_20231016.STEP"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "ROE_RCP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Isolated Module DC DC Converter 1 Output 12V 84mA 4.5V - 5.5V Input")
 	(tags "ROE-0512S ")
@@ -26,18 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.0031 -3.5472 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3af3d5f9-187c-415e-8427-f1e26ef8529f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -187,6 +175,17 @@
 		(layer "F.Fab")
 		(uuid "407133be-1e18-4c3d-a0c1-1e0a9d10162f")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 0.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e1b1170f-6969-436c-8d6f-99877b20c8c2")
+	)
 	(fp_text user "*"
 		(at -2.916 -3.5472 0)
 		(unlocked yes)
@@ -277,6 +276,7 @@
 		(remove_unused_layers no)
 		(uuid "3fa3a5ed-48af-4a07-a429-fca00bc7f93a")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/ROE-0512S.stp"
 		(offset
 			(xyz 3.8 1.75 0)

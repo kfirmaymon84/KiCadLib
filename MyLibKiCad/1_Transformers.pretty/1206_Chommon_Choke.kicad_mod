@@ -1,11 +1,11 @@
 (footprint "1206_Chommon_Choke"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1206_Chommon_Choke")
 	(property "Reference" "REF**"
-		(at -0.9 -1.5 0)
+		(at 0 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "a68f508c-d752-4893-a278-ff783fe5d9ab")
 		(effects
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5e9dc900-ba2f-447a-914c-79b38ed7fb20")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.1)
 			)
 		)
@@ -85,13 +73,13 @@
 		(uuid "4c22e25a-75c2-4fa1-896a-6e2588d0fb84")
 	)
 	(fp_circle
-		(center -2.2 -1)
-		(end -2.12 -1)
+		(center -1.8 1)
+		(end -1.72 1)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "88e9c30a-fa61-46c5-9eb0-6381cd8a5c62")
 	)
@@ -102,7 +90,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4803fed7-b893-4836-952c-17f34e8cbfd8")
 	)
@@ -113,18 +101,18 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f43508dd-f7fd-43e3-9125-14b385a4cf1a")
 	)
 	(fp_circle
-		(center -2.2 -1)
-		(end -2.3 -1)
+		(center -1.35 0.5)
+		(end -1.45 0.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "d5333a00-d92c-4e63-9d54-dc5ea58ead58")
 	)
@@ -135,39 +123,40 @@
 		(uuid "62e62c34-fbd2-41ce-a2ff-eaae954d3b6f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.05)
 			)
 		)
 	)
 	(pad "1" smd rect
 		(at -1.35 0.5)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "8c364eea-fe1a-4aaa-8f16-63489709fa87")
 	)
 	(pad "2" smd rect
 		(at 1.35 0.5)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "4a2d4872-3ad3-42ce-b691-52a5de5dc8d1")
 	)
 	(pad "3" smd rect
 		(at 1.35 -0.5)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "709856f5-b044-432d-ac23-8704c3d81f10")
 	)
 	(pad "4" smd rect
 		(at -1.35 -0.5)
 		(size 1.1 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "8ff98876-0f45-4f22-97aa-5def6a45847a")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/1206CommonChoke.step"
 		(offset
 			(xyz 0 0 1.2)

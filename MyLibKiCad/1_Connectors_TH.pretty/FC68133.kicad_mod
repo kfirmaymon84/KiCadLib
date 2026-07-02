@@ -1,7 +1,7 @@
 (footprint "FC68133"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.325 -7.635 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d8ff7faa-6b20-435c-8bea-d7257df7de3a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -149,7 +137,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "40a205e2-7c91-44e2-a6a5-7a24145aea9d")
 	)
@@ -160,7 +148,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "24a9805a-9be4-48a6-8ab6-8fa65c881e71")
 	)
@@ -301,12 +289,23 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7f93e781-b781-4089-af5c-6102047c7b53")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 0.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "488b00d1-5bb0-41a6-9d6d-617393080e30")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 1.9 0 0)
+		(at 2.1 -1.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1341f901-0e97-4957-84e9-ad4e5bfcb9ac")
@@ -397,6 +396,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "23b910bf-8579-4e76-9f58-9850cd5448bd")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/35RAPC4BHN2.step"
 		(offset
 			(xyz 5.5 0 5.1)

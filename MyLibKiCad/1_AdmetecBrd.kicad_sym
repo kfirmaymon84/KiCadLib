@@ -49,15 +49,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "ZeroSense_1_1"
 			(rectangle
 				(start -10.16 6.35)

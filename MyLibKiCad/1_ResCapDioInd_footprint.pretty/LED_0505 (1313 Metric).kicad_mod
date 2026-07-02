@@ -89,8 +89,8 @@
 		(uuid "47cbafd8-b667-4a25-afb9-2d133ac164d8")
 	)
 	(fp_circle
-		(center 1 0)
-		(end 0.9 0)
+		(center 0.5 0)
+		(end 0.4 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -106,8 +106,8 @@
 		(uuid "ba76ae0c-8842-4a06-942e-2fe3f57f19eb")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.05)
 			)
 		)
 	)

@@ -1,0 +1,147 @@
+(footprint "IND_5x5x4.5H"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.6 -2.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93304a6e-f9e1-44c1-bbdf-afb3b5dcd5cf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IND_5x5x4.5H"
+		(at -4.1 -6.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1291db1e-ed67-450f-a270-0f1c5a8b64fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0700918-3cb4-4a4f-8070-04481a63b2c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3431b4dd-921e-4fd5-b731-27aa6837f646")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.5 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "443d0736-9576-4719-afb2-1ff2deb96050")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e31ace0b-43a9-490e-aaf9-327c0e0de7f1")
+	)
+	(fp_circle
+		(center -2.7 -2.2)
+		(end -2.8 -2.2)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a915e6b4-5c85-4a07-b707-ac8eaff1c880")
+	)
+	(fp_rect
+		(start -2.8 -2.5)
+		(end 2.8 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "904868e3-e0cd-46e5-9143-cf02eada7698")
+	)
+	(fp_rect
+		(start -2.8 -2.5)
+		(end 2.8 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "810e7616-8297-437d-b68d-bab01968db1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e39684d9-5660-47ee-899e-25359e33bf39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 0 180)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "52ca6f4a-60ea-47ab-88f3-c1c78429de11")
+	)
+	(pad "2" smd rect
+		(at 1.8 0 180)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6aa7c144-cff2-4613-b2e7-fb26ec87d534")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/IND_5x5x4.5H.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1012,7 +1012,7 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "PAD"
@@ -1147,15 +1147,6 @@
 			)
 		)
 		(property "Description" "Pad_1x1.5_mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1489,7 +1480,7 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "P"
@@ -1573,7 +1564,7 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "P"
@@ -1657,7 +1648,7 @@
 		(pin_names
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "P"
@@ -1741,7 +1732,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LS"
@@ -2364,15 +2355,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 0 0 0)
 			(effects
 				(font

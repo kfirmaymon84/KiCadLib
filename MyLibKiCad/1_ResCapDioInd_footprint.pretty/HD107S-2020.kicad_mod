@@ -1,0 +1,163 @@
+(footprint "HD107S-2020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HD107s 2020 RGBPixel LEDchip")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a2a7ee82-ddf3-41db-a668-c4c6c422eb00")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HD107S-2020"
+		(at -3.9 -9.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14fb79ec-ee62-4846-861a-58f2f5f3bb76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4718d86-57a4-4e7e-8d71-b2a27f1d9d15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "HD107s 2020 RGBPixel LEDchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fc5045b-2ecd-43fc-9cb9-ec6ded6c2105")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.1 -1.2)
+		(end -1.2 -1.2)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7f25d402-c65e-40e1-905c-4d5b1e0b92da")
+	)
+	(fp_rect
+		(start -1.05 -1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4cf07973-055d-493c-9e78-17477ce90426")
+	)
+	(fp_rect
+		(start -1.05 -1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d00a9cd-3dc6-4514-baa6-ccb6dc9e6d64")
+	)
+	(fp_circle
+		(center -0.7 -0.8)
+		(end -0.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e908e860-2cf8-43fa-a3c7-68f816d06dee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a9aa86a6-3252-4e81-8680-45c63198af54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 -0.75)
+		(size 0.65 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26c88c59-78bc-4451-aaf0-1dc92775aba9")
+	)
+	(pad "2" smd rect
+		(at -0.675 0)
+		(size 0.65 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7090b5e7-f1e3-4ec1-ad0a-8c520c5b9d85")
+	)
+	(pad "3" smd rect
+		(at -0.675 0.75)
+		(size 0.65 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "99516300-57ef-4b0d-9985-bab7b68b6881")
+	)
+	(pad "4" smd rect
+		(at 0.675 -0.75)
+		(size 0.65 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af601a77-277c-4d7d-93e4-fe43302b10cd")
+	)
+	(pad "5" smd rect
+		(at 0.675 0)
+		(size 0.65 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9eac76dc-315b-427d-982f-494d40a0c35a")
+	)
+	(pad "6" smd rect
+		(at 0.675 0.75)
+		(size 0.65 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d6857ab7-7e01-46f9-9cdd-541f2ba0674b")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/HD107s-2020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

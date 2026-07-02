@@ -1,7 +1,7 @@
 (footprint "PE014005"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RELAY GEN PURPOSE SPDT 5A 5V")
 	(property "Reference" "REF**"
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c055a39b-1353-44b8-a837-8aef0dfd8255")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -224,6 +212,17 @@
 		(layer "F.Fab")
 		(uuid "056a91e5-9554-40cc-955d-129e2c969610")
 	)
+	(fp_circle
+		(center -8.6 3.8)
+		(end -8.5 3.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8728f020-62b0-44b2-b323-16d41405eaa8")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -281,6 +280,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "57195081-7a33-4459-bbf8-dcfc1b6302dc")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/PE014005.stp"
 		(offset
 			(xyz 0.3 0 0.1)

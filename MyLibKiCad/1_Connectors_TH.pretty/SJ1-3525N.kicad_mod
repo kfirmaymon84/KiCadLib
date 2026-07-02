@@ -1,7 +1,7 @@
 (footprint "SJ1-3525N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector")
 	(property "Reference" "REF**"
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9b78e26e-b95d-49f5-955a-da1e2fa1bbcf")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -111,7 +99,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f92c049b-1f6b-4125-b225-b97c9079930d")
 	)
@@ -332,12 +320,23 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7781508b-2c57-46a2-89af-cb30a180d313")
 	)
+	(fp_circle
+		(center 0.05 0)
+		(end 0.15 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "606ab0a0-35ef-4012-ac9e-a609b2f087b7")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -1.55 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "70246984-f830-4af1-86b9-71b9b91b1e51")
@@ -439,6 +438,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "cb6e1c80-005b-4dfd-806a-6c84395689a7")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/SJ1-3525N.step"
 		(offset
 			(xyz 0 -6.8 2.5)

@@ -1,7 +1,7 @@
 (footprint "HE3621A0500"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RELAY REED SPST 500MA 5V")
 	(property "Reference" "REF**"
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "99073849-35f2-474b-abed-97ced3462306")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -111,7 +99,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c9fb4a55-cb9d-47ab-a9f2-190b700aadd8")
 	)
@@ -196,13 +184,13 @@
 		(uuid "16b74a9d-f8c1-47f1-8d73-2a530e7b6e33")
 	)
 	(fp_circle
-		(center -10.35 0)
-		(end -10.25 0)
+		(center -7.6 0)
+		(end -7.5 0)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "66d4500c-5c46-4e06-87dc-863fd33df3cc")
 	)
@@ -254,6 +242,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "46c17e35-ce24-417a-b7e1-4435a6c1cdce")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/HE3621A0500.stp"
 		(offset
 			(xyz 0 0 0)

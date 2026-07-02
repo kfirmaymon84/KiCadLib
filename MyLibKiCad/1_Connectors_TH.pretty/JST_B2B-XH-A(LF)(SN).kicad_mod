@@ -1,7 +1,7 @@
 (footprint "JST_B2B-XH-A(LF)(SN)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -1.8 -3.7 0)
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e8ce534f-60f8-4d45-ab91-2542bbd0607d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -110,7 +100,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c82ff293-2634-4dc9-a60b-30359f302e75")
 	)
@@ -121,7 +111,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1d0d6b9e-d2de-48ab-b68f-6ccfda65e01a")
 	)
@@ -166,13 +156,13 @@
 		(uuid "d745fc25-1409-4bec-b6e5-560950050563")
 	)
 	(fp_circle
-		(center 2.5 1.5)
-		(end 2.6 1.5)
+		(center 1.25 0.55)
+		(end 1.35 0.55)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "19aa4dcb-709f-4211-8348-e971c3e8b2df")
 	)
@@ -204,6 +194,7 @@
 		(remove_unused_layers no)
 		(uuid "1e54585b-d55c-4a44-ae41-b41db57696a8")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/B2B-XH-A-LF--SN---3DModel-STEP-269445.STEP"
 		(offset
 			(xyz 0 0 0)

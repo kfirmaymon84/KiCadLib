@@ -1,7 +1,7 @@
 (footprint "TO-220-7"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TO-220-7, Vertical, RM 1.27mm, Multiwatt-7, staggered type-2")
 	(property "Reference" "REF**"
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0e053214-3c2b-4186-8f5e-209f3a8c0ae0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -184,7 +171,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "777a7ac9-52a5-4105-a510-90a08e562579")
 	)
@@ -298,6 +285,17 @@
 		(layer "F.Fab")
 		(uuid "475f647e-8a11-461a-8f40-1422ad4dda0e")
 	)
+	(fp_circle
+		(center 0 -0.45)
+		(end 0.1 -0.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "16fe265b-0d73-4ecd-8cef-4d98da489107")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 3.81 -2.5 0)
 		(layer "F.Fab")
@@ -365,6 +363,7 @@
 		(remove_unused_layers no)
 		(uuid "38cd8daf-e2fb-4065-8da6-3ad87bb7b0e0")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/TO-220-7_Normal_Custom_rev1.0.STEP"
 		(offset
 			(xyz 0 0 4)

@@ -1,7 +1,7 @@
 (footprint "440054-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.013 -3 0)
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at -3.013 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4704b46a-5e1f-4945-a019-bcb12e916af7")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at -3.013 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -110,7 +100,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5ecc8b08-a12d-43d5-a0aa-91ef0872de91")
 	)
@@ -225,18 +215,18 @@
 		(uuid "405856b7-d051-4b5c-b0a3-b6b7d6f63f8a")
 	)
 	(fp_circle
-		(center -5.663 0)
-		(end -5.563 0)
+		(center -3 0)
+		(end -2.9 0)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9513c62b-32c0-4ed7-8c33-c8b4445353f1")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.013 0.5 0)
+		(at 0 1.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bd11c2cc-c54e-41ba-86e9-cc7a23302ce6")
@@ -283,6 +273,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "a8dde31c-cf6c-4a5f-aad8-e49f2d7c0a6d")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/440054-4.step"
 		(offset
 			(xyz 0 0 6)

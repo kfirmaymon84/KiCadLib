@@ -1,7 +1,7 @@
 (footprint "simCardConn -CONN SIM CARD BLOCK STYLE SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.25 -4.75 0)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3406e1da-84c6-45bf-af04-7b91675f5830")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -132,7 +120,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e1072649-93e0-4fa4-968e-f4651660a6ad")
 	)
@@ -143,7 +131,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "b5f2b140-193d-4aa8-9339-22cfa35343d7")
 	)
@@ -154,7 +142,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3ab418a6-d8a8-4c7b-97a5-f7033abe36fc")
 	)
@@ -165,7 +153,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "1856a50a-def6-418a-8a49-a8d0bceec962")
 	)
@@ -184,7 +172,7 @@
 	(pad "1" smd roundrect
 		(at -5 -2.54)
 		(size 2.25 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "6e3701ae-3c10-46c8-b57e-2c2b1f2104c9")
@@ -192,7 +180,7 @@
 	(pad "2" smd roundrect
 		(at 5 -2.54)
 		(size 2.25 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "74a6d3a1-13fc-4032-b9c4-a816bb6ff2d5")
@@ -200,7 +188,7 @@
 	(pad "3" smd roundrect
 		(at -5 0)
 		(size 2.25 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "4bf88f66-f19e-4107-8c39-c411552edf08")
@@ -208,7 +196,7 @@
 	(pad "4" smd roundrect
 		(at 5 0)
 		(size 2.25 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "68e62c50-a33f-4a95-8bfd-52e02cde07aa")
@@ -216,7 +204,7 @@
 	(pad "5" smd roundrect
 		(at -5 2.54)
 		(size 2.25 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9756f15c-331f-49f7-8f71-e2113bf498bc")
@@ -224,20 +212,21 @@
 	(pad "6" smd roundrect
 		(at 5 2.54)
 		(size 2.25 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "ebafa39b-d81e-4059-bc3a-c4981c7a3cdf")
 	)
-	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/simCardConn3d.step"
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/CN2100027 SIM CARD 6P CONNECTOR 3.0H.STEP"
 		(offset
-			(xyz -5.25 3.725 0)
+			(xyz 0 0 3.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -0 -0 -0)
 		)
 	)
 )

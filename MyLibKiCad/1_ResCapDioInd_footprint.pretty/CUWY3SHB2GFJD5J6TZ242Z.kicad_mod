@@ -1,7 +1,7 @@
 (footprint "CUWY3SHB2GFJD5J6TZ242Z"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CUW Y3SH.B2")
 	(tags "LED")
@@ -25,18 +25,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a48b78b1-b19c-45c2-8a21-dd3dcf88b901")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -164,7 +152,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "db8f4261-2a4d-4f14-9e9d-17b8750e6f38")
 	)
@@ -175,18 +163,18 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f64e62f3-28bf-43da-850b-3418e76e544e")
 	)
 	(fp_circle
-		(center 2.6 0.4)
-		(end 2.8 0.4)
+		(center 1.65 0.4)
+		(end 1.75 0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "06eb5b17-57f9-4ad5-ad0c-21843ee03558")
 	)
@@ -196,35 +184,36 @@
 		(uuid "14ea4292-87f8-437a-89c1-c7415041e377")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 0.4 0.4)
+				(thickness 0.05)
 			)
 		)
 	)
 	(pad "A" smd rect
 		(at -1.65 0.35 90)
 		(size 0.4 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "179cf39b-7952-4efb-9ddc-a922f66bc7fe")
 	)
 	(pad "A" smd rect
 		(at -1.35 0 90)
 		(size 0.3 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fc4b51b1-a10d-4615-8065-a3bb847e2a14")
 	)
 	(pad "C" smd rect
 		(at 1.35 0 90)
 		(size 0.3 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "324b8563-f067-4b32-a964-e5b620595668")
 	)
 	(pad "C" smd rect
 		(at 1.65 0.35 90)
 		(size 0.4 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ddaca830-4cc1-4d49-8530-28f95c7730cf")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/CUW_Y3SH.B2-GFJD-5J6T-Z242-Z.stp"
 		(offset
 			(xyz 0 0.4600000014 0.3000000074)

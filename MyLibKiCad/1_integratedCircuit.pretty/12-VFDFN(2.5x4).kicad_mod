@@ -62,54 +62,6 @@
 			(type solid)
 		)
 		(fill yes)
-		(layer "F.Cu")
-		(uuid "1a5f2f24-aa18-45e0-bf02-4a12fb0cc7e7")
-	)
-	(fp_poly
-		(pts
-			(xy -1.2282 0.9779) (xy -1.2282 1.2573) (xy -1.025 1.2573) (xy -1.025 0.9779)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "35672d56-0bc6-4d7e-83e8-b57040502556")
-	)
-	(fp_poly
-		(pts
-			(xy 1.2282 -0.9779) (xy 1.2282 -1.2573) (xy 1.025 -1.2573) (xy 1.025 -0.9779)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "3a59d5fd-bd19-4915-a4f5-15fa730b3e2e")
-	)
-	(fp_poly
-		(pts
-			(xy 1.2282 0.9779) (xy 1.2282 1.2573) (xy 1.025 1.2573) (xy 1.025 0.9779)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "768db18d-5b00-4263-a229-b488b9bef3f9")
-	)
-	(fp_poly
-		(pts
-			(xy -1.2282 -0.9779) (xy -1.2282 -1.2573) (xy -1.025 -1.2573) (xy -1.025 -0.9779)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
 		(layer "F.Mask")
 		(uuid "f241374b-71ec-4a3d-a0b0-bd7560dcdc55")
 	)
@@ -252,14 +204,14 @@
 	)
 	(fp_circle
 		(center -2 -1)
-		(end -2.1 -1)
+		(end -1.9 -1)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "4125ab60-be39-4fc7-95ad-a90d8c2000c4")
+		(uuid "00a3c5a1-8e10-4c8d-a196-c1815e9c15d8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -345,10 +297,30 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "01d683f2-f720-418e-8cab-038be232285c")
 	)
-	(pad "13" smd rect
+	(pad "13" smd custom
 		(at 0 0)
 		(size 2.4384 1.9558)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.2282 1.3221) (xy -1.2282 -1.2573) (xy -1.025 -1.2573) (xy -1.025 1.3221)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.2282 1.3221) (xy 1.2282 -1.2573) (xy 1.025 -1.2573) (xy 1.025 1.3221)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "85086992-8a8b-4a81-8624-9bfd722adfea")
 	)
 	(embedded_fonts no)

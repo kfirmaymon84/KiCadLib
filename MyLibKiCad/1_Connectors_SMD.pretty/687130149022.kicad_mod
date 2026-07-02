@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -284,8 +284,8 @@
 		(uuid "8621c28e-e19a-44e5-a00b-1dfe6e24c3d6")
 	)
 	(fp_circle
-		(center -8 -3.75)
-		(end -8 -3.6)
+		(center -7.25 -3.4)
+		(end -7.25 -3.25)
 		(stroke
 			(width 0.1)
 			(type default)

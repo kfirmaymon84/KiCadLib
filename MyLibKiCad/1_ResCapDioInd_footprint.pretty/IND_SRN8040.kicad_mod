@@ -104,8 +104,8 @@
 		(uuid "77b30be6-1a7e-4075-a266-85f41c505e1b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(thickness 0.05)
 			)
 		)
 	)

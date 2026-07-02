@@ -162,8 +162,8 @@
 		(uuid "64a2bb57-794d-491d-828c-a96124beefa2")
 	)
 	(fp_circle
-		(center 1.25 -2.55)
-		(end 1.3 -2.55)
+		(center 1.25 -2.3)
+		(end 1.3 -2.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -172,45 +172,16 @@
 		(layer "F.SilkS")
 		(uuid "508349e7-d30c-4bf8-bf56-66ee50c5c9aa")
 	)
-	(fp_line
-		(start -2.75 -2.33)
-		(end 2.75 -2.33)
+	(fp_rect
+		(start -2.5 -1.7)
+		(end 2.5 1.6)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "2780f0a1-b1ba-4b78-bc32-8a725b0dc683")
-	)
-	(fp_line
-		(start -2.75 2)
-		(end -2.75 -2.33)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "d6e5eef2-4b97-40f2-ba14-c9cc8815484c")
-	)
-	(fp_line
-		(start 2.75 -2.33)
-		(end 2.75 2)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0b34f17b-aaa3-4541-a323-1ccdb4dacafc")
-	)
-	(fp_line
-		(start 2.75 2)
-		(end -2.75 2)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "2f39c7bd-1616-4b68-87a9-18060d2cb3ea")
+		(uuid "e265100b-9d6f-4e22-9eb8-c5ba57f241be")
 	)
 	(fp_line
 		(start -2.5 -1.35)
@@ -251,16 +222,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "770119e3-31da-4e93-902e-fc2047f1d16d")
-	)
-	(fp_line
-		(start -2.05 -1.35)
-		(end 2.05 -1.35)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7f1fc3eb-ae44-4d81-90d3-7d9202219777")
 	)
 	(fp_line
 		(start -1.95 0.85)
@@ -343,8 +304,8 @@
 		(uuid "345f09a4-096f-4e39-bdc9-52b6bed2ae42")
 	)
 	(fp_circle
-		(center 1.25 -2.55)
-		(end 1.3 -2.55)
+		(center 1.25 -1.3)
+		(end 1.3 -1.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -361,7 +322,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -401,13 +362,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "67577cd1-12ed-45c6-9937-05de5bf92857")
 	)
-	(pad "FP" smd rect
+	(pad "FP1" smd rect
 		(at -2.25 1.2)
 		(size 0.4 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "abe21ebe-8207-497c-992d-29b21155362b")
 	)
-	(pad "FP" smd rect
+	(pad "FP2" smd rect
 		(at 2.25 1.2)
 		(size 0.4 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")

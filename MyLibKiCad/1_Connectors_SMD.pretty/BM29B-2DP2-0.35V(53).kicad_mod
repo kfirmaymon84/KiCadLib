@@ -1,0 +1,223 @@
+(footprint "BM29B-2DP2-0.35V(53)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN HDR 2POS SMD GOLD")
+	(property "Reference" "REF**"
+		(at 0.1 1.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a04b5ac-365e-403a-a298-1750ef573065")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BM29B-2DP2-0.35V(53)"
+		(at 0.35 -3.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81c0d680-3540-4b48-82da-a824d44670d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4202e9ef-18a2-45c6-b6c9-29f03f50d698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN HDR 2POS SMD GOLD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2fdacd2-c0bc-4f9f-a5fd-067e98b28f4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.54)
+		(end -0.7 -0.54)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a3dcd28-483c-4c41-ad56-e2dffc464f7a")
+	)
+	(fp_line
+		(start -1 0.54)
+		(end -1 -0.54)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e0ddb39-1269-40ad-8438-ac3df451da08")
+	)
+	(fp_line
+		(start -0.7 0.54)
+		(end -1 0.54)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff3546d4-1e15-4501-a4e1-1c1d3f129cda")
+	)
+	(fp_line
+		(start 0.7 -0.54)
+		(end 1 -0.54)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a663970d-cace-4a52-8462-7a9d1fc95f22")
+	)
+	(fp_line
+		(start 1 -0.54)
+		(end 1 0.54)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b0bf405-3b79-41ca-8efd-9c470ff16001")
+	)
+	(fp_line
+		(start 1 0.54)
+		(end 0.7 0.54)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95cadcbe-239b-4f28-81e0-3d5298d4bb2f")
+	)
+	(fp_circle
+		(center 0 -1.1)
+		(end -0.1 -1.1)
+		(stroke
+			(width 0.11)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c465b975-1fea-409f-ad87-b65fcf791d6f")
+	)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3ab46ffc-b363-4569-b89d-8cc41877aeb6")
+	)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "df183ad5-0f79-4e90-9eed-8f5b75843048")
+	)
+	(fp_circle
+		(center 0 -0.6)
+		(end -0.1 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "5f294206-283b-4beb-bde1-612bbfb2c32b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2366775d-ef4c-4d19-a009-925764e66358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -0.54)
+		(size 0.18 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb231914-992e-4773-93ab-e734061a78f0")
+	)
+	(pad "2" smd rect
+		(at 0 0.54)
+		(size 0.18 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d11c6aa-9757-45bb-a716-c6b52276bb4f")
+	)
+	(pad "SH1" smd rect
+		(at -0.385 -0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93502eb7-411f-42c3-a024-0fe03fa79799")
+	)
+	(pad "SH1" smd rect
+		(at -0.385 0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e9934738-59d9-4446-aea8-a39271f29bb9")
+	)
+	(pad "SH2" smd rect
+		(at 0.385 -0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ab63677-0796-41f3-ae6c-8578e8454f8d")
+	)
+	(pad "SH2" smd rect
+		(at 0.385 0.54)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43c6260a-b3d1-42bb-9535-f485ddb7fd8e")
+	)
+	(embedded_fonts no)
+	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/BM29B-2DP2-0.35V(53).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

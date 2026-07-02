@@ -1,7 +1,7 @@
 (footprint "TAG-CON6 - NO LOCK"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.1 -4.6 0)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "caec7909-6526-4f14-ad9c-a388f0019a6a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -71,7 +59,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d883a7ad-fcb4-4a2d-8fd5-1a42d78a51d0")
 	)
@@ -82,7 +70,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "db99b382-c4b4-48d2-8d47-e1912940cc86")
 	)
@@ -93,7 +81,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "209bf1b0-185a-4b08-81bc-dc03435b7c68")
 	)
@@ -218,4 +206,5 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "257aae1f-f28f-4950-838d-e475609e9aa8")
 	)
+	(embedded_fonts no)
 )

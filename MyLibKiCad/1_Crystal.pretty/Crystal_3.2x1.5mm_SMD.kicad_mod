@@ -1,7 +1,7 @@
 (footprint "Crystal_3.2x1.5mm_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.65 0)
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d3608b93-f01a-4a9b-a73d-fc593efcd1ca")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3bd6f698-49ff-414c-b3f4-7c26c0de28c2")
 		(effects
 			(font
 				(size 1 1)
@@ -95,7 +82,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8503def7-cf55-4fd3-bf3c-d1ee64b2bafc")
 	)
@@ -106,9 +93,20 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0573988a-41ae-4784-a438-4777acab7cd2")
+	)
+	(fp_circle
+		(center -1.25 0.65)
+		(end -1.15 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b2241185-22ac-4e9d-88e2-9e1abed8bd82")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -125,17 +123,18 @@
 	(pad "1" smd rect
 		(at -1.25 0)
 		(size 1.1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "8d815856-1718-4aeb-9638-69691997765b")
 	)
 	(pad "2" smd rect
 		(at 1.25 0)
 		(size 1.1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "e80bba96-f42d-4d6c-9a4b-0dbac4a0deb5")
 	)
+	(embedded_fonts no)
 	(model "C:/PCB/KiCadLib/MyLibKiCad/3D/CFPX-217.stp"
 		(offset
 			(xyz 0 0 0)
